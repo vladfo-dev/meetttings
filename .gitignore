@@ -1,6 +1,6 @@
 
-# Created by https://www.toptal.com/developers/gitignore/api/react,python
-# Edit at https://www.toptal.com/developers/gitignore?templates=react,python
+# Created by https://www.toptal.com/developers/gitignore/api/python
+# Edit at https://www.toptal.com/developers/gitignore?templates=python
 
 ### Python ###
 # Byte-compiled / optimized / DLL files
@@ -156,19 +156,4 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 .idea/
 
-### react ###
-.DS_*
-logs
-**/*.backup.*
-**/*.back.*
-
-node_modules
-bower_components
-
-*.sublime*
-
-psd
-thumb
-sketch
-
-# End of https://www.toptal.com/developers/gitignore/api/react,python
+# End of https://www.toptal.com/developers/gitignore/api/python
