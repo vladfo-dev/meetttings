@@ -11,12 +11,12 @@ log = logging.getLogger(__name__)
     '/ready',
     tags=['ready'],
     response_model=ReadyResponse,
-    summary="Simple health check."
+    summary='Simple health check.'
 )
 def readiness_check():
     """Run basic application health check.
     Returns:
         response (ReadyResponse): ReadyResponse model object instance.
     """
-    log.info("Started GET /ready")
+    log.info("Started GET /api/ready")
     return ReadyResponse(status="ok")

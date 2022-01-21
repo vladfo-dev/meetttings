@@ -5,7 +5,7 @@ FROM python:3.7-alpine
 WORKDIR /app/backend
 
 # Install Python dependencies
-COPY requirements.txt /app/backend
+COPY ../requirements.txt /app/backend
 RUN  \
     apk update && \
     apk upgrade && \

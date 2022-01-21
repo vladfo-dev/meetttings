@@ -6,7 +6,8 @@ from backend.config import (
     VERSION,
 )
 from fastapi.middleware.cors import CORSMiddleware
-from backend.app.routes import router_ready
+from backend.app.routes import router_ready, router_meet
+
 log = logging.getLogger(__name__)
 
 
@@ -39,6 +40,7 @@ def get_app():
 
     log.debug("Add application routes.")
     app.include_router(router_ready)
+    app.include_router(router_meet)
     return app
 
 
